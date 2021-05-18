@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial Narrow';
+    margin: 0px;
+    padding: 0px;
+    background-color: #b4b4b4;
+    background-image: url("background.png");
+    background-repeat:repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+.menü {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    width: auto;
+}
+.menu {
+    display: inline-block;
+    padding: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.5rem;
+}
+.aktív{
+    color:grey;
+}
+.menu:hover{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: rgb(253, 135, 81);
+}
+a {
+    text-decoration: none;
+}
+.fejléc{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+/*footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}*/
+head {
+    position:fixed;
+}
+/*.lábléc
+{
+    align-content: center;
+}*/
+.törzs {
+
+    text-align: center;
+    height: max-content;
+   /*vertical-align: middle;*/
+    align-items: center;
+    padding:15%;
+    text-shadow: 2px 2px 0px #000000
+
+}
+.magamrol {
+    padding:12,5%;
+    font-size: 22px;
+
+}
+img {
+    max-width: 70%;
+}
+.kép {
+    padding: 0px;
+    width: 70%;
+}
+.motorozas p {
+    font-weight: bold;
+    font-size: 25px;
+}
+.szöveg h2 {
+    font-size: 35px;
+}
+.fooldal h1{
+    font-size: 70px;
+}
+.fooldal h2{
+    font-size: 50px;
+}
+.terv p {
+    font-size: 25px;
+}
